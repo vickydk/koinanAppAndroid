@@ -14,7 +14,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/logo"
-        android:contentDescription="@string/todo" />
+        android:contentDescription="@string/logo_activity_exchange" />
 
     <TextView
         android:id="@+id/textView12"
@@ -30,7 +30,7 @@
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:layout_marginTop="92dp"
-        android:contentDescription="@string/todo"
+        android:contentDescription="@string/icon_voucher_exchange"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.25"
         app:layout_constraintStart_toStartOf="parent"
@@ -46,7 +46,8 @@
         app:layout_constraintHorizontal_bias="0.749"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView12"
-        app:srcCompat="@drawable/digital_money" />
+        app:srcCompat="@drawable/digital_money"
+        android:contentDescription="@string/icon_wallet_exchange" />
 
     <Button
         android:id="@+id/button"
@@ -55,7 +56,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
         android:background="@color/black"
-        android:text="Voucher"
+        android:text="@string/voucher"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.237"
         app:layout_constraintStart_toStartOf="parent"
@@ -68,7 +69,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
         android:background="@color/black"
-        android:text="Digital Wallet"
+        android:text="@string/digital_wallet"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.832"
         app:layout_constraintStart_toStartOf="parent"

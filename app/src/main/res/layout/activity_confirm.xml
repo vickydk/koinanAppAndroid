@@ -13,13 +13,14 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/logo" />
+        app:srcCompat="@drawable/logo"
+        android:contentDescription="@string/logo_confirm" />
 
     <TextView
         android:id="@+id/textView19"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Konfirmasi Penukaran"
+        android:text="@string/konfirmasi_penukaran"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
@@ -30,7 +31,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="56dp"
-        android:text="Total Koin"
+        android:text="@string/total_koin_voucher_list"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.263"
         app:layout_constraintStart_toStartOf="parent"
@@ -41,7 +42,7 @@
         android:layout_width="80dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="56dp"
-        android:text="Rp. 0"
+        android:text="@string/total_koin_confirm"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.485"
         app:layout_constraintStart_toEndOf="@+id/textView20"
@@ -52,7 +53,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="116dp"
-        android:text="Detail Penukaran"
+        android:text="@string/detail_penukaran"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
@@ -63,16 +64,17 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
-        android:text="Voucher Map Rp. 50.000 x 1"
-        app:layout_constraintTop_toBottomOf="@+id/textView22"
-        tools:layout_editor_absoluteX="117dp" />
+        android:text="@string/voucher_map_rp_50_000_x_1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView22" />
 
     <TextView
         android:id="@+id/textView24"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="112dp"
-        android:text="Sisa Koin"
+        android:text="@string/sisa_koin"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.22"
         app:layout_constraintStart_toStartOf="parent"
@@ -85,7 +87,7 @@
         android:layout_marginStart="120dp"
         android:layout_marginLeft="120dp"
         android:layout_marginTop="112dp"
-        android:text="Rp. 0"
+        android:text="@string/rp_0"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.061"
         app:layout_constraintStart_toEndOf="@+id/textView24"
@@ -97,7 +99,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:background="@color/black"
-        android:text="Tukar"
+        android:text="@string/tukar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
