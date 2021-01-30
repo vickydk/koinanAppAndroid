@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Koinan</string>
+    <string name="informasi">Informasi</string>
+    <string name="mulai">Mulai</string>
+    <string name="logo">logo</string>
+    <string name="konfirmasi">Konfirmasi</string>
+    <string name="sedang_menghitung">Sedang Menghitung!</string>
+    <string name="koin_rp_1_000">Koin Rp. 1.000 :</string>
+    <string name="koin_rp_500">Koin Rp. 500 :</string>
+    <string name="koin_rp_200">Koin Rp. 200 :</string>
+    <string name="koin_rp_100">Koin Rp. 100 :</string>
+    <string name="_0">0</string>
+    <string name="_0">0</string>
+    <string name="_0">0</string>
+    <string name="_0">0</string>
+    <string name="total_koin_anda">Total Koin Anda:</string>
+    <string name="todo">TODO</string>
+    <string name="todo">TODO</string>
+    <string name="pilih_konversi">Pilih Konversi</string>
+    <string name="todo">TODO</string>
+    <string name="todo">TODO</string>
+    <string name="x1">x1</string>
+    <string name="x1">x1</string>
+    <string name="total_koin">Total Koin:</string>
+    <string name="rp_0">Rp. 0</string>
+    <string name="tukar">Tukar</string>
+    <string name="rp_100_000">Rp. 100.000</string>
+    <string name="rp_50_000">Rp. 50.000</string>
+    <string name="todo">TODO</string>
+    <string name="todo">TODO</string>
+    <string name="voucher_map">Voucher MAP</string>
+    <string name="todo">TODO</string>
+</resources>
